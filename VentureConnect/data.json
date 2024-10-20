@@ -1,0 +1,60 @@
+{
+  "investors": [
+    {
+      "name": "Fire Capital",
+      "category": "Software",
+      "image": "assets/images/property-01.jpg",
+      "fund_left": "3 years",
+      "successful_investors": 8,
+      "average_irr": "10%",
+      "amount_available": "$2,264,000"
+    },
+    {
+      "name": "Water Capital",
+      "category": "Semiconductor",
+      "image": "assets/images/property-02.jpg",
+      "fund_left": "2 years",
+      "successful_investors": 6,
+      "average_irr": "12%",
+      "amount_available": "$1,180,000"
+    },
+    {
+      "name": "Wind Capital",
+      "category": "FinTech",
+      "image": "assets/images/property-03.jpg",
+      "fund_left": "1 year",
+      "successful_investors": 5,
+      "average_irr": "8%",
+      "amount_available": "$1,460,000"
+    }
+  ],
+  "startups": [
+    {
+      "name": "Startup1",
+      "category": "Software",
+      "image": "assets/images/startup-01.jpg",
+      "age": "2 years",
+      "amount_looking_for": "$1,000,000",
+      "growth_rate": "25%",
+      "current_owners": 3
+    },
+    {
+      "name": "Startup2",
+      "category": "Semiconductor",
+      "image": "assets/images/startup-02.jpg",
+      "age": "5 years",
+      "amount_looking_for": "$5,500,000",
+      "growth_rate": "30%",
+      "current_owners": 5
+    },
+    {
+      "name": "Startup3",
+      "category": "FinTech",
+      "image": "assets/images/startup-03.jpg",
+      "age": "1 year",
+      "amount_looking_for": "$500,000",
+      "growth_rate": "50%",
+      "current_owners": 2
+    }
+  ]
+}

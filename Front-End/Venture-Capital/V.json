@@ -1,0 +1,22 @@
+{
+    "vcs": [
+        {
+            "name": "VC Firm 1",
+            "industry": "Technology",
+            "investment": "$10M",
+            "image": "https://via.placeholder.com/300x200"
+        },
+        {
+            "name": "VC Firm 2",
+            "industry": "Healthcare",
+            "investment": "$5M",
+            "image": "https://via.placeholder.com/300x200"
+        },
+        {
+            "name": "VC Firm 3",
+            "industry": "Finance",
+            "investment": "$15M",
+            "image": "https://via.placeholder.com/300x200"
+        }
+    ]
+}

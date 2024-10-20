@@ -1,0 +1,22 @@
+{
+    "startups": [
+        {
+            "name": "Startup 1",
+            "industry": "Technology",
+            "funding": "$1M",
+            "image": "https://via.placeholder.com/300x200"
+        },
+        {
+            "name": "Startup 2",
+            "industry": "Healthcare",
+            "funding": "$500K",
+            "image": "https://via.placeholder.com/300x200"
+        },
+        {
+            "name": "Startup 3",
+            "industry": "Finance",
+            "funding": "$2M",
+            "image": "https://via.placeholder.com/300x200"
+        }
+    ]
+}
