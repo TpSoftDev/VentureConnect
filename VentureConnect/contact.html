@@ -5,8 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-  <title>Synodos - Contact Us</title>
+  <title>Venture Connect - Contact Us</title>
 
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/fontawesome.css">
@@ -14,6 +13,32 @@
   <link rel="stylesheet" href="assets/css/owl.css">
   <link rel="stylesheet" href="assets/css/animate.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <!-- Add Custom CSS File (add this line at the end) -->
+<link rel="stylesheet" href="assets/css/custom.css">
+  <style>
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .contact-info ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .contact-info ul li {
+      margin-bottom: 10px;
+    }
+
+    .contact-info ul li strong {
+      display: inline-block;
+      min-width: 120px;
+    }
+
+    .card {
+      margin-bottom: 30px;
+    }
+  </style>
 </head>
 
 <body>
@@ -37,12 +62,9 @@
       <div class="row">
         <div class="col-12">
           <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <h1>Synodos</h1>
+              <h1>Venture Connect</h1>
             </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
             <ul class="nav">
               <li><a href="index.html">Home</a></li>
               <li><a href="investors.html">Investors</a></li>
@@ -52,7 +74,6 @@
             <a class='menu-trigger'>
               <span>Menu</span>
             </a>
-            <!-- ***** Menu End ***** -->
           </nav>
         </div>
       </div>
@@ -66,7 +87,7 @@
       <div class="row">
         <div class="col-lg-12">
           <span class="breadcrumb"><a href="#">Home</a> / Contact Us</span>
-          <h3>Contact Us</h3>
+          <h3>Get in Touch with Us</h3>
         </div>
       </div>
     </div>
@@ -77,17 +98,56 @@
   <div class="contact-page section">
     <div class="container">
       <div class="row">
-        <!-- Course Info Section -->
         <div class="col-lg-6">
           <div class="section-heading">
             <h6>Course Information</h6>
             <h2>ComS319 Construction of User Interfaces, Fall 2024</h2>
           </div>
-          <ul>
-            <li><strong>Date:</strong> October 20, 2024</li>
-            <li><strong>Student Name:</strong> Andrew Wilken</li>
-            <li><strong>ISU Email:</strong> awilken@iastate.edu</li>
-          </ul>
+          <div class="contact-info">
+            <ul>
+              <li><strong>Date:</strong> October 20, 2024</li>
+              <li><strong>Student Name:</strong> Andrew Wilken</li>
+              <li><strong>Email:</strong> awilken@iastate.edu</li>
+            </ul>
+            <ul>
+              <li><strong>Date:</strong> October 20, 2024</li>
+              <li><strong>Student Name:</strong> Thabang Pila</li>
+              <li><strong>Email:</strong> tila@iastate.edu</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Team Section with Cards -->
+        <div class="col-lg-6">
+          <div class="section-heading">
+            <h6>Our Team</h6>
+            <h2>Meet the Team Behind Venture Connect</h2>
+          </div>
+
+          <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-6">
+              <div class="card">
+                <img src="assets/images/team1.jpg" class="card-img-top" alt="Team Member 1">
+                <div class="card-body">
+                  <h5 class="card-title">Andrew Wilken</h5>
+                  <p class="card-text">Lead Developer at Venture Connect.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-6">
+              <div class="card">
+                <img src="assets/images/team2.jpg" class="card-img-top" alt="Team Member 2">
+                <div class="card-body">
+                  <h5 class="card-title">Thabang Pila</h5>
+                  <p class="card-text">Project Manager at Venture Connect.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -96,7 +156,7 @@
   <footer>
     <div class="container">
       <div class="col-lg-12">
-        <p>Synodos Inc. 2024</p>
+        <p>&copy; Venture Connect Inc. 2024</p>
       </div>
     </div>
   </footer>
@@ -108,6 +168,5 @@
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
-
 </body>
 </html>
