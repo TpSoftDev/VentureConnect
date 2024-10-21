@@ -3,7 +3,7 @@
     {
       "name": "Fire Capital",
       "category": "Software",
-      "image": "assets/images/property-01.jpg",
+      "image": "assets/images/fireCapital.png",
       "fund_left": "3 years",
       "successful_investors": 8,
       "average_irr": "10%",
@@ -12,7 +12,7 @@
     {
       "name": "Water Capital",
       "category": "Semiconductor",
-      "image": "assets/images/property-02.jpg",
+      "image": "assets/images/waterCapital.png",
       "fund_left": "2 years",
       "successful_investors": 6,
       "average_irr": "12%",
@@ -21,7 +21,7 @@
     {
       "name": "Wind Capital",
       "category": "FinTech",
-      "image": "assets/images/property-03.jpg",
+      "image": "assets/images/windCapital.png",
       "fund_left": "1 year",
       "successful_investors": 5,
       "average_irr": "8%",
@@ -30,27 +30,27 @@
   ],
   "startups": [
     {
-      "name": "Startup1",
+      "name": "CodeForge",
       "category": "Software",
-      "image": "assets/images/startup-01.jpg",
+      "image": "assets/images/codeForge.png",
       "age": "2 years",
       "amount_looking_for": "$1,000,000",
       "growth_rate": "25%",
       "current_owners": 3
     },
     {
-      "name": "Startup2",
+      "name": "SiliconStream",
       "category": "Semiconductor",
-      "image": "assets/images/startup-02.jpg",
+      "image": "assets/images/siliconStream.png",
       "age": "5 years",
       "amount_looking_for": "$5,500,000",
       "growth_rate": "30%",
       "current_owners": 5
     },
     {
-      "name": "Startup3",
+      "name": "FinTrak",
       "category": "FinTech",
-      "image": "assets/images/startup-03.jpg",
+      "image": "assets/images/fintrack.png",
       "age": "1 year",
       "amount_looking_for": "$500,000",
       "growth_rate": "50%",
